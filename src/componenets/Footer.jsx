@@ -11,7 +11,7 @@ export const Footer = () => {
     <footer>
         <div className="social"> <h2 className='social-head'> Our Social</h2>
         <ul className='footer-links'>
-           <li className='footer-link'> <Link to={"https://www.instagram.com/a_hypocrite105/0"} target='_blank'> <FontAwesomeIcon icon={faInstagram} /> </Link></li> 
+           <li className='footer-link'> <Link to={"https://www.instagram.com/eyadthegh/"} target='_blank'> <FontAwesomeIcon icon={faInstagram} /> </Link></li> 
         </ul>
         </div>
         <hr className='footer-line'/>

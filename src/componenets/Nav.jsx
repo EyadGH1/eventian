@@ -23,6 +23,7 @@ export default function Nav() {
                 <figure className="logo-container">
                     <img src={logo} alt='logo'  className='logo'/>
                 </figure>
+                <div className="menu">
                 <ul className='nav-links'>
                     <li className="nav-link">Events</li>
                     <li className="nav-link">Contact us</li>
@@ -32,7 +33,7 @@ export default function Nav() {
                   <button className='adding'> Add your event</button>
                   <button className='language-button' onClick={changeLanguage}><p className='language-text'>{language}</p> <div className=""><FontAwesomeIcon icon={faGlobe} /></div></button>
                 </div>
-                
+                </div>
                 <input type="checkbox"  className='toggle-menu'></input>
                 <div className="ham-menu">
                
