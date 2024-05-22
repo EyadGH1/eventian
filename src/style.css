@@ -422,9 +422,6 @@ Phone
   .ham-menu , .toggle-menu{
     display: block;
   }
-  .nav-links,.prefrences{
-    display: none;
-  }
   .nav{
     display: flex;
     justify-content: space-between;
@@ -432,5 +429,38 @@ Phone
 .ham-menu{
   position: relative;
   right: 5%;
+}
+.menu{
+  justify-content: start;
+  flex-direction: column;
+  align-items: center;
+  position: fixed;
+  top:0;
+  right: -300px;
+  background-color: black;
+  width: 300px;
+  height: 100%;
+  padding-top: 65px;
+}
+.prefrences , .nav-links{
+  justify-content: start;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+.nav-links{
+  height: 50%;
+}
+.prefrences {
+  height: 30%;
+}
+.menu li {
+  padding: 30px;
+  font-size: 24px;
+  box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1);
+}
+.nav input:checked ~.menu{
+  right: 0px;
+  box-shadow: -20px 0 40px rgba(255, 255, 255, 0.1);
 }
 }
