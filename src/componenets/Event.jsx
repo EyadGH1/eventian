@@ -9,7 +9,7 @@ export default  function Event ( {img , name , insta, date, id ,info}) {
 
         <h3 className="event-text">{name} event </h3>
         <hr />
-        <p className="info"> {info}</p>
+        <p className="info"> {date}</p>
 
     </div>
     </Link>

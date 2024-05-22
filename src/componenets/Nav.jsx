@@ -32,6 +32,12 @@ export default function Nav() {
                   <button className='adding'> Add your event</button>
                   <button className='language-button' onClick={changeLanguage}><p className='language-text'>{language}</p> <div className=""><FontAwesomeIcon icon={faGlobe} /></div></button>
                 </div>
+                
+                <input type="checkbox"  className='toggle-menu'></input>
+                <div className="ham-menu">
+               
+               
+            </div>
             </div>
   )
 }

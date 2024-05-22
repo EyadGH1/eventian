@@ -11,7 +11,6 @@ export default function Events() {
    
             <section id = "events">
             <div className="container">
-        <div className="row">
                 <div className="search">
                     <label className="search-h"> find your next <span className='green'>memory</span> </label>
            {/* <div className="search-container">
@@ -21,12 +20,10 @@ export default function Events() {
   */}
                   </div>
                   </div>
-                  </div>
             </section>
          
             <section id="events-section">
             <div className="container">
-        <div className="row">
                 <h1 className="events-text">
                     Events:
                 </h1>
@@ -39,12 +36,12 @@ export default function Events() {
                             insta={event.insta}
                             id = {event.id}
                             info={event.info}
+                            date = {event.date}
                             />
                         )
                     })}
                 </div>
                 </div>
-    </div>
             </section>
      
     </>
