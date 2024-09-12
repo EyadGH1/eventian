@@ -13,11 +13,11 @@ export default function Events() {
             <div className="container">
                 <div className="search">
                     <label className="search-h"> find your next <span className='green'>memory</span> </label>
-           {/* <div className="search-container">
+           { <div className="search-container">
                <input type="text" className="search-input" placeholder="Search..."></input>
               <button className='search-icon'> <FontAwesomeIcon icon={faStar} /></button>
                   </div>
-  */}
+  }
                   </div>
                   </div>
             </section>

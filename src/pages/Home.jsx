@@ -8,7 +8,6 @@ function Home (){
     return (
         <>
         <Nav />
-        <Landing />
         <Events />
         <Footer />
         </>

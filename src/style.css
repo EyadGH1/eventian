@@ -7,7 +7,6 @@
     padding: 0;
 }
 .nav{
-  width: 100%;
   z-index: 1;
 }
 .event-link{
@@ -182,6 +181,7 @@ box-sizing: border-box;
   }
   
   .spinnerin {
+    z-index: 1;
     border: 2px solid #444;
     width: 1.5em;
     height: 1.5em;
@@ -202,7 +202,7 @@ box-sizing: border-box;
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 320px;
+    height: 240px;
     text-align: center;
     background-color: #444;
   }
@@ -441,6 +441,7 @@ Phone
   width: 300px;
   height: 100%;
   padding-top: 65px;
+  z-index: 2;
 }
 .prefrences , .nav-links{
   justify-content: start;
@@ -462,5 +463,9 @@ Phone
 .nav input:checked ~.menu{
   right: 0px;
   box-shadow: -20px 0 40px rgba(255, 255, 255, 0.1);
+}
+.ham-menu{
+  position: absolute;
+  right: 5%;
 }
 }
